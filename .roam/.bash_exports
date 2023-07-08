@@ -1,0 +1,9 @@
+export WONDER=/Users/mnm/wonder
+export WONDER_ROOT=/Users/mnm/wonder
+export INFRA=/Users/mnm/infrastructure-modules
+
+export ROAM_LOCAL_PREFIX=mnm
+
+# Easy connect to local MySQL server
+export MYSQL_USERNAME=root
+export MYSQL_HOST=localhost
