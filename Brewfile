@@ -1,6 +1,8 @@
 brew "tmux"
+brew "tmuxinator"
 brew "tree"
 brew "watch"
+
 
 cask "android-studio"
 cask "iterm2"
