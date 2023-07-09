@@ -1,0 +1,21 @@
+# This is Git's per-user configuration file.
+[user]
+name = Michael  Miller
+email = mnm364@gmail.com
+[alias]
+	amend = commit --amend --no-edit
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	ci = commit
+	co = checkout
+	cob = checkout -b
+	del = branch -D
+	logone = log -1 HEAD
+	prev = co HEAD^
+	irebase = rebase -i HEAD~9
+	save = !git add -A && git commit -m 'chore: commit save point'
+	st = status
+	undo-in-progress = !git reflog -2 HEAD
+	unstage = reset HEAD --
+
+
+# git log --pretty=format:'%C(yellow)%h %<(15)%C(red)%ad %<(18)%C(green)%an %C(reset)%s' --date=format-local:'%Y-%m-%d %H:%M:%S'
