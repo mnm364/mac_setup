@@ -225,6 +225,17 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "google-chrome-beta": {
+        "version": "115.0.5790.75",
+        "options": {
+          "full_name": "google-chrome-beta"
+        }
+      }
+    },
+    "tap": {
+      "homebrew/cask-versions": {
+        "revision": "84540c9fc47cdccc3da2b18e805710f89329a7c7"
       }
     }
   },
@@ -236,7 +247,7 @@
         "Homebrew/homebrew-core": "api",
         "CLT": "14.3.1.0.1.1683849156",
         "Xcode": "14.3.1",
-        "macOS": "13.4"
+        "macOS": "13.4.1"
       }
     }
   }
