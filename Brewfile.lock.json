@@ -231,6 +231,12 @@
         "options": {
           "full_name": "google-chrome-beta"
         }
+      },
+      "spotify": {
+        "version": "1.2.15.828,79f41970,492",
+        "options": {
+          "full_name": "spotify"
+        }
       }
     },
     "tap": {
