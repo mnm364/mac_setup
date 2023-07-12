@@ -1,5 +1,6 @@
 tap "homebrew/cask-versions"
 
+brew "node"
 brew "tmux"
 brew "tmuxinator"
 brew "tree"
