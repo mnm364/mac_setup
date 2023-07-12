@@ -16,3 +16,6 @@ mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
     https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
 
 ### END SETUP VIM ###
+
+# Install tmux plugin manager (tpm)
+[ ! -d ~/.tmux/plugins/tpm ] && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
