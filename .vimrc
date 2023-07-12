@@ -86,6 +86,8 @@ call plug#begin('~/.vim/plugged')
 
   Plug 'preservim/nerdtree'
 
+  Plug 'christoomey/vim-tmux-navigator'
+
 call plug#end()
 
 " }}}
