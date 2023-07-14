@@ -7,6 +7,7 @@ brew "tree"
 brew "watch"
 
 cask "android-studio"
+cask "audacity"
 cask "flux"
 cask "google-chrome"
 cask "google-chrome-beta"
