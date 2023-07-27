@@ -1,5 +1,6 @@
 tap "homebrew/cask-versions"
 
+brew "bat"
 brew "ffmpeg"
 brew "node"
 brew "tmux"
