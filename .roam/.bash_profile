@@ -6,4 +6,3 @@ source $MAC_SETUP/.roam/.bash_aliases
 keybase whoami > /dev/null
 test $? = 0 && source $MAC_SETUP/.roam/.bash_secrets
 
-. $WONDER_ROOT/wonder-aliases.sh
