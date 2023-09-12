@@ -7,6 +7,7 @@ brew "tmux"
 brew "tmuxinator"
 brew "tree"
 brew "watch"
+brew "wget"
 
 cask "android-studio"
 cask "audacity"
