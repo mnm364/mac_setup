@@ -9,13 +9,18 @@ email = mnm364@gmail.com
 	co = checkout
 	cob = checkout -b
 	del = branch -D
-	logone = log -1 HEAD
+	log1 = log -1 HEAD
 	prev = co HEAD^
 	irebase = rebase -i HEAD~9
 	save = !git add -A && git commit -m 'chore: commit save point'
-	st = status
+    save-index = commit -m 'chore: commit save point'
+    st = status
 	undo-in-progress = !git reflog -2 HEAD
 	unstage = reset HEAD --
+    diffe = diff -- . ':(exclude)*.pb.go' ':(exclude)*protos.js' ':(exclude)*protos.d.ts'
+    diffe-staged = diff --staged -- . ':(exclude)*.pb.go' ':(exclude)protos.js' ':(exclude)*protos.d.ts'
+    rlog = reflog --date=iso
 
-
+# [format]
+#      pretty = format:%h %Cblue%ad%Creset %ae %Cgreen%s%Creset
 # git log --pretty=format:'%C(yellow)%h %<(15)%C(red)%ad %<(18)%C(green)%an %C(reset)%s' --date=format-local:'%Y-%m-%d %H:%M:%S'
