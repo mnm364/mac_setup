@@ -1,3 +1,5 @@
+export ROAM_LOCAL_PREFIX=mnm
+
 export INFRA=/Users/$USER/infrastructure-modules
 
 # Easy connect to local MySQL server
