@@ -473,7 +473,7 @@
         }
       },
       "slack": {
-        "version": "4.35.126",
+        "version": "4.35.130",
         "options": {
           "full_name": "slack"
         }
@@ -517,7 +517,7 @@
     },
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "3f24a5258c9c51ee8c5deb56180ba9f697929ab9"
+        "revision": "daf1d3ecea85508c5047076c6a07c6bf8e314350"
       }
     }
   },
@@ -535,9 +535,9 @@
         "HOMEBREW_VERSION": "4.1.22",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
-        "CLT": "14.3.1.0.1.1683849156",
+        "CLT": "15.0.0.0.1.1694021235",
         "Xcode": "15.0.1",
-        "macOS": "14.0"
+        "macOS": "14.1.1"
       }
     }
   }
