@@ -1,4 +1,5 @@
 tap "homebrew/cask-versions"
+tap "buo/cask-upgrade"
 
 brew "bat"
 brew "ffmpeg"
@@ -15,6 +16,7 @@ cask "flux"
 cask "google-chrome"
 cask "google-chrome-beta"
 cask "iterm2"
+cask "logitech-g-hub"
 cask "logi-options-plus"
 cask "messenger"
 cask "ngrok"
