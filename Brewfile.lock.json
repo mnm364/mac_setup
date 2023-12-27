@@ -397,7 +397,7 @@
         }
       },
       "iterm2": {
-        "version": "3.4.22",
+        "version": "3.4.23",
         "options": {
           "full_name": "iterm2"
         }
@@ -475,7 +475,7 @@
         }
       },
       "zoom": {
-        "version": "5.17.0.27246",
+        "version": "5.17.1.27701",
         "options": {
           "full_name": "zoom"
         }
@@ -505,7 +505,7 @@
         }
       },
       "logitech-g-hub": {
-        "version": "2023.10.493254",
+        "version": null,
         "options": {
           "full_name": "logitech-g-hub"
         }
@@ -519,7 +519,7 @@
     },
     "tap": {
       "homebrew/cask-versions": {
-        "revision": "65081dd1ba39fb4ea612f6d83387ac3f86d2faa3"
+        "revision": "5bde77dee0e587d97243a33802c11a287db3ea9f"
       },
       "buo/cask-upgrade": {
         "revision": "e1aadd4c97203c0de552f0c0e00baee47604e2c7"
@@ -537,12 +537,12 @@
         "macOS": "13.5.2"
       },
       "sonoma": {
-        "HOMEBREW_VERSION": "4.2.0-68-g7817518",
+        "HOMEBREW_VERSION": "4.2.1",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.1.0.0.1.1700200546",
         "Xcode": "15.1",
-        "macOS": "14.0"
+        "macOS": "14.3"
       }
     }
   }
