@@ -4,4 +4,4 @@
 brew bundle -q --file "$MAC_SETUP/Brewfile"
 
 # Upgrade all apps to latest
-brew cu -ay
+# brew cu -ay
