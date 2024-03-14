@@ -1,0 +1,6 @@
+tap "homebrew/cask-versions"
+tap "buo/cask-upgrade"
+
+brew "ffmpeg"
+
+ask "google-chrome-beta"
