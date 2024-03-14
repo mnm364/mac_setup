@@ -516,6 +516,12 @@
         "options": {
           "full_name": "whatsapp"
         }
+      },
+      "microsoft-teams": {
+        "version": "24033.812.2721.9190",
+        "options": {
+          "full_name": "microsoft-teams"
+        }
       }
     }
   },
