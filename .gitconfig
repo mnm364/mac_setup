@@ -3,21 +3,24 @@
 name = Michael  Miller
 email = mnm364@gmail.com
 [alias]
-	amend = commit --amend --no-edit
-	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
-	ci = commit
-	co = checkout
-	cob = checkout -b
-	del = branch -D
-	log1 = log -1 HEAD
-	prev = co HEAD^
-    rc = rebase --continue
+    amend = commit --amend --no-edit
+    br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+    ci = commit
+    co = checkout
+    cob = checkout -b
+    cp = cherry-pick
+    del = branch -D
+    log1 = log -1 HEAD
+    prev = co HEAD^
+    rb = rebase
+    rba = rebase --abort
+    rbc = rebase --continue
     irebase = rebase -i HEAD~9
-	save = !git add -A && git commit -m 'chore: commit save point'
+    save = !git add -A && git commit -m 'chore: commit save point'
     save-index = commit -m 'chore: commit save point'
     st = status
-	undo-in-progress = !git reflog -2 HEAD
-	unstage = reset HEAD --
+    undo-in-progress = !git reflog -2 HEAD
+    unstage = reset HEAD --
     diffe = diff -- . ':(exclude)*.pb.go' ':(exclude)*protos.js' ':(exclude)*protos.d.ts'
     diffe-staged = diff --staged -- . ':(exclude)*.pb.go' ':(exclude)protos.js' ':(exclude)*protos.d.ts'
     rlog = reflog --date=iso
