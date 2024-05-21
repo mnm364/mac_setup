@@ -3,6 +3,7 @@ tap "buo/cask-upgrade"
 
 brew "bat"
 brew "node"
+brew "magic-wormhole"
 brew "tmux"
 brew "tmuxinator"
 brew "tree"
