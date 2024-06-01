@@ -34,3 +34,6 @@ cask "visual-studio-code"
 cask "xcodes"
 cask "whatsapp"
 cask "zoom"
+
+tap "sal0max/nikon"
+cask "nx-studio"
