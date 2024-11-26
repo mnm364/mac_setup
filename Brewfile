@@ -3,6 +3,7 @@ tap "buo/cask-upgrade"
 
 brew "bat"
 brew "git-delta"
+brew "gsed"
 brew "node"
 brew "magic-wormhole"
 brew "tmux"
