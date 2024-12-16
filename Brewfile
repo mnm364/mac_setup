@@ -14,6 +14,7 @@ brew "wget"
 
 cask "android-studio"
 cask "audacity"
+cask "db-browser-for-sqlite"
 cask "flux"
 cask "google-chrome"
 cask "iterm2"
