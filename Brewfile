@@ -2,6 +2,7 @@ tap "homebrew/cask-versions"
 tap "buo/cask-upgrade"
 
 brew "bat"
+brew "dust"
 brew "git-delta"
 brew "gsed"
 brew "node"
