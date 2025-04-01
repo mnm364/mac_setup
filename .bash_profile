@@ -4,7 +4,6 @@ source $MAC_SETUP/.bash_aliases
 # Fix iTerm "Enter" being seen as "^M"
 stty sane
 
-
 ### BEGIN SETUP VIM ###
 
 mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged

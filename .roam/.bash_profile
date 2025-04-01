@@ -5,4 +5,3 @@ source $MAC_SETUP/.roam/.bash_aliases
 # decrypt secrets. Prints "▶ ERROR logged out" if logged out.
 keybase whoami > /dev/null
 test $? = 0 && source $MAC_SETUP/.roam/.bash_secrets
-

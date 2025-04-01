@@ -8,6 +8,7 @@ email = mnm364@gmail.com
     ci = commit
     co = checkout
     cob = checkout -b
+    com = checkout master
     cp = cherry-pick
     del = branch -D
     log1 = log -1 HEAD
