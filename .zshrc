@@ -1,7 +1,7 @@
 export MAC_SETUP=~/mac_setup
 
 source $MAC_SETUP/.bash_profile
-source $MAC_SETUP/.roam/.zshrc
+source $MAC_SETUP/.roam/.bash_profile
 
 ### START Add Git tracking to zsh prompt ###
 
