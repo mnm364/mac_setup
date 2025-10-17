@@ -13,7 +13,7 @@ export MYSQL_HOST=localhost
 ### BEGIN SETUP ANDROID ###
 
 export ANDROID_HOME="$HOME/Library/Android/sdk"
-export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-tools/latest/bin:$PATH"
+export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH"
 # Add Android Studio `studio` command to PATH
 export PATH="/Applications/Android Studio.app/Contents/MacOS":$PATH
 
