@@ -42,5 +42,5 @@ cask "xcodes-app"
 cask "whatsapp"
 cask "zoom"
 
-tap "sal0max/nikon"
-cask "nx-studio"
+# tap "sal0max/nikon"
+# cask "nx-studio"
