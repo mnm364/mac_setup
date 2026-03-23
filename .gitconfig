@@ -1,4 +1,11 @@
 # This is Git's per-user configuration file.
+
+# Usage: by references in .gitconfig
+#
+# [include]
+# 	path = mac_setup/.gitconfig
+#
+
 [user]
 name = Michael  Miller
 email = mnm364@gmail.com
