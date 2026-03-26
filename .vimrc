@@ -1,3 +1,15 @@
+" usage: by reference in in ~/.vimrc
+"
+" ```
+" try 
+"   source $MAC_SETUP/.vimrc
+" catch
+"   " No such file? No problem; just ignore it.
+" endtry 
+" ```
+" 
+
+
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 

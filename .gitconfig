@@ -2,8 +2,10 @@
 
 # Usage: by references in .gitconfig
 #
+# ```
 # [include]
 # 	path = mac_setup/.gitconfig
+# ```
 #
 
 [user]
