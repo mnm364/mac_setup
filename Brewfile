@@ -1,6 +1,3 @@
-tap "homebrew/cask-versions"
-tap "buo/cask-upgrade"
-
 brew "bat"
 brew "coreutils"
 brew "curl"
