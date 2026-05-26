@@ -1,4 +1,9 @@
-export MAC_SETUP=~/mac_setup
+# Usage: by reference in ~/.zshrc
+#
+# ```
+# export MAC_SETUP="$HOME/mac_setup"
+# source "$MAC_SETUP/.zshrc"
+# ```
 
 source $MAC_SETUP/.bash_profile
 source $MAC_SETUP/.roam/.bash_profile
