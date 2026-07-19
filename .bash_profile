@@ -1,5 +1,6 @@
 source $MAC_SETUP/.bash_exports
 source $MAC_SETUP/.bash_aliases
+[ -f $MAC_SETUP/.bash_secrets ] && source $MAC_SETUP/.bash_secrets
 
 # Fix iTerm "Enter" being seen as "^M"
 stty sane
